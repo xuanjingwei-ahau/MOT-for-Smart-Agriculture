@@ -1,0 +1,27 @@
+cd /e/MOT-for-Smart-Agriculture
+
+
+
+
+
+
+2. 添加文件	git add . 
+3. 提交更改	git commit -m "test"	                                创建本地提交。
+4. 关联远程	git remote add origin <https://github.com/xuanjingwei-ahau/MOT-for-Smart-Agriculture.git>	绑定远程仓库（如果已存在origin则先remove）。
+5. 首次推送	git push origin main                       	推送到远程并建立分支追踪。
+
+
+
+# 1. 查看有哪些变更（可选）
+git status
+
+# 2. 添加所有新文件到暂存区
+git add .
+
+# 3. 提交到本地仓库，并写下清晰说明
+git commit -m “新增模型训练脚本”
+
+# 4. 推送到GitHub（如果是该分支的第一次推送）
+git push -u origin main
+# 此后，在该分支推送只需：
+# git push
