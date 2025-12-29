@@ -28,3 +28,10 @@ The areas in the depth map where the value is 0 are usually invalid regions caus
 
 Please refer to `distance.py`.
 
+
+
+
+
+### Contact us
+
+If you have any problems when downloading and using this code, please contact us by email:xuanjingwei@stu.ahua.edu.cn.
